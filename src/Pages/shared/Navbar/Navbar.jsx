@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router'
+import { Link, NavLink } from 'react-router'
 import Logo from '../Logo/Logo'
 
 const Navbar = () => {
     const navItems = <>
-        <li><NavLink to="/" className="hover:text-blue-400 transition-colors">Work</NavLink></li>
+        <li><NavLink to="/work" className="hover:text-blue-400 transition-colors">Work</NavLink></li>
         <li><NavLink to="/about" className="hover:text-blue-400 transition-colors">About</NavLink></li>
         <li><NavLink to="/blog" className="hover:text-blue-400 transition-colors">Blog</NavLink></li>
         <li><NavLink to="/contact" className="hover:text-blue-400 transition-colors">Contact</NavLink></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <Logo />
+                    <Link to='/'> <Logo /></Link>
                 </div>
 
                 {/* Right side - Desktop Menu */}

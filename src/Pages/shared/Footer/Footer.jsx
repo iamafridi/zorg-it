@@ -1,54 +1,47 @@
-import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-            <aside>
+        <footer className="bg-black text-white py-12 px-6 relative overflow-hidden">
+            <div className="absolute inset-0 z-0">
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '0%', backgroundColor: '#330000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '10%', backgroundColor: '#000000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '20%', backgroundColor: '#330000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '30%', backgroundColor: '#000000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '40%', backgroundColor: '#330000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '50%', backgroundColor: '#000000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '60%', backgroundColor: '#330000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '70%', backgroundColor: '#000000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '80%', backgroundColor: '#330000' }} />
+                <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '90%', backgroundColor: '#000000' }} />
+            </div>
 
-                <p>
-                    Zorg.
-                    <br />
-                    since 2020
-                </p>
-            </aside>
-            <nav>
-                <h6 className="footer-title">Social</h6>
-                <div className="grid grid-flow-col gap-4">
-                    <a>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path
-                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path
-                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            className="fill-current">
-                            <path
-                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                        </svg>
+            <div className="max-w-6xl mx-auto relative z-10 flex flex-col md:flex-row justify-between items-start gap-10">
+                <div>
+                    <p className="text-sm text-white/60 mb-2">Have a project in mind?</p>
+                    <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Let’s Talk</h2>
+                    <a href="mailto:hey@pixll.com" className="text-2xl md:text-3xl font-bold underline hover:text-cyan-400 transition-colors duration-300">
+                        hey@pixll.com
                     </a>
                 </div>
-            </nav>
+
+                <div className="flex flex-col md:flex-row md:items-end justify-between w-full md:w-auto gap-8">
+                    <div className="space-y-2">
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">LinkedIn</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">GitHub</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Facebook</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Instagram</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Twitter</a>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row md:items-center gap-4 text-xs text-white/60">
+                        <div className="flex gap-4">
+                            <a href="#" className="hover:text-white transition-colors">Privacy</a>
+                            <a href="#" className="hover:text-white transition-colors">Terms</a>
+                        </div>
+                        <span>© 2017 – 2025 Pixll</span>
+                    </div>
+                </div>
+            </div>
         </footer>
     )
 }
