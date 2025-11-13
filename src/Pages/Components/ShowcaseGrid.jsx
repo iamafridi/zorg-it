@@ -4,7 +4,7 @@ import image3 from '../../assets/PageImages/dashboard.jpg'
 
 const ShowcaseGrid = () => {
     return (
-        <div className="relative bg-linear-to-br from-black via-red-950 to-black py-20">
+        <div className="relative bg-linear-to-br from-black via-red-950 to-black py-20 -mb-5">
             {/* Left dark gradient overlay */}
             <div className="absolute left-0 top-0 bottom-0 w-1/4 bg-linear-to-r from-black to-transparent z-10 pointer-events-none"></div>
 

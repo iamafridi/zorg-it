@@ -16,30 +16,39 @@ const Footer = () => {
                 <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '90%', backgroundColor: '#000000' }} />
             </div>
 
-            <div className="max-w-6xl mx-auto relative z-10 flex flex-col md:flex-row justify-between items-start gap-10">
-                <div>
-                    <p className="text-sm text-white/60 mb-2">Have a project in mind?</p>
-                    <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Let’s Talk</h2>
-                    <a href="mailto:hey@pixll.com" className="text-2xl md:text-3xl font-bold underline hover:text-cyan-400 transition-colors duration-300">
-                        hey@pixll.com
-                    </a>
-                </div>
-
-                <div className="flex flex-col md:flex-row md:items-end justify-between w-full md:w-auto gap-8">
-                    <div className="space-y-2">
-                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">LinkedIn</a>
-                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">GitHub</a>
-                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Facebook</a>
-                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Instagram</a>
-                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors">Twitter</a>
+            <div className="max-w-7xl mx-auto relative z-10">
+                <div className="flex justify-between items-start mb-6">
+                    <div className="flex-1">
+                        <p className="text-lg text-white/90 mb-2">Have a project in mind?</p>
+                        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#04b0ee] via-white to-[#02abe9] bg-clip-text text-transparent">
+                            Let's Talk
+                        </h2>
                     </div>
 
-                    <div className="flex flex-col md:flex-row md:items-center gap-4 text-xs text-white/60">
-                        <div className="flex gap-4">
-                            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-                            <a href="#" className="hover:text-white transition-colors">Terms</a>
+                    <div className="space-y-2 text-right">
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors underline">LinkedIn</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors underline">GitHub</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors underline">Facebook</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors underline">Instagram</a>
+                        <a href="#" className="block text-sm hover:text-cyan-400 transition-colors underline">Twitter</a>
+                    </div>
+                </div>
+
+                <div className="flex justify-between items-center text-md">
+                    <a href="mailto:hey@pixll.com" className="text-3xl md:text-5xl font-normal underline underline-offset-14 hover:text-cyan-400 transition-colors duration-300">
+                        hey@pixll.com
+                    </a>
+
+                    <div className="flex items-center text-[18px] gap-8 text-white/60">
+                        <div className='flex gap-8'>
+                            <div className='gap-8 mr-10 flex'>
+                                <a href="#" className="hover:text-white transition-colors underline">Privacy</a>
+                                <a href="#" className="hover:text-white transition-colors underline">Terms</a>
+                            </div>
+                            <div>
+                                <span>© 2017 – 2025 Pixll</span>
+                            </div>
                         </div>
-                        <span>© 2017 – 2025 Pixll</span>
                     </div>
                 </div>
             </div>

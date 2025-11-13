@@ -42,12 +42,13 @@ const RecentWork = () => {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
-                        <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end">
-                            <h2 className="text-2xl font-semibold mb-1">Alcohol Tracker</h2>
-                            <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
-
-                            <div className="flex items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
-                                <span className="text-sm">Open</span>
+                        <div className="absolute bottom-0 left-0 right-0 p-8 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-2xl font-semibold mb-1">Alcohol Tracker</h2>
+                                <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
+                            </div>
+                            <div className="flex items-center justify-center gap-2 opacity-80 bg-white/10 rounded-full group-hover:opacity-100 transition-opacity h-[56px] w-[150px]">
+                                <span className="text-[24px]">Open</span>
                                 <img
                                     src={arrow}
                                     alt="arrow"
@@ -66,12 +67,13 @@ const RecentWork = () => {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
-                        <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end">
-                            <h2 className="text-2xl font-semibold mb-1">Rely</h2>
-                            <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
-
-                            <div className="flex items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
-                                <span className="text-sm">Open</span>
+                        <div className="absolute bottom-0 left-0 right-0 p-8 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-2xl font-semibold mb-1">Rely</h2>
+                                <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
+                            </div>
+                            <div className="flex items-center justify-center gap-2 opacity-80 bg-white/10 rounded-full group-hover:opacity-100 transition-opacity h-[56px] w-[150px]">
+                                <span className="text-[24px]">Open</span>
                                 <img
                                     src={arrow}
                                     alt="arrow"
@@ -93,11 +95,12 @@ const RecentWork = () => {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
-                        <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
-                            <h2 className="text-xl font-semibold mb-1">Alcohol Tracker</h2>
-                            <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
-
-                            <div className="flex items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold mb-1">Alcohol Tracker</h2>
+                                <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
+                            </div>
+                            <div className="flex items-center justify-center gap-2 opacity-80 bg-white/10 rounded-full group-hover:opacity-100 transition-opacity h-[35px] w-[97px]">
                                 <span className="text-sm">Open</span>
                                 <img
                                     src={arrow}
@@ -117,11 +120,12 @@ const RecentWork = () => {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
-                        <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
-                            <h2 className="text-xl font-semibold mb-1">Finance Website</h2>
-                            <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
-
-                            <div className="flex items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold mb-1">Finance Website</h2>
+                                <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
+                            </div>
+                            <div className="flex items-center justify-center gap-2 opacity-80 bg-white/10 rounded-full group-hover:opacity-100 transition-opacity h-[35px] w-[97px]">
                                 <span className="text-sm">Open</span>
                                 <img
                                     src={arrow}
@@ -141,11 +145,12 @@ const RecentWork = () => {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
-                        <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
-                            <h2 className="text-xl font-semibold mb-1">Innovative Travel</h2>
-                            <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
-
-                            <div className="flex items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
+                        <div className="absolute bottom-0 left-0 right-0 p-6 flex justify-between items-center">
+                            <div>
+                                <h2 className="text-xl font-semibold mb-1">Innovative Travel</h2>
+                                <p className="text-white/60 mb-3 text-sm">All-In-One (AIO) Service</p>
+                            </div>
+                            <div className="flex items-center justify-center gap-2 opacity-80 bg-white/10 rounded-full group-hover:opacity-100 transition-opacity h-[35px] w-[97px]">
                                 <span className="text-sm">Open</span>
                                 <img
                                     src={arrow}

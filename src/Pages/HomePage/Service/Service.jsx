@@ -9,7 +9,7 @@ import Icon4 from '../../../assets/Icons/end-to-end.png'
 
 const Service = () => {
     return (
-        <section className="relative min-h-screen  text-white overflow-hidden backdrop-blur-sm ">
+        <section className="relative min-h-screen  text-white overflow-hidden backdrop-blur-sm -mb-14">
             {/* Background Image */}
             <div className="absolute inset-0 blur-[1.5px]">
                 <img
