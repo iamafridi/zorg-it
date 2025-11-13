@@ -2,9 +2,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-body {
+/* body {
   @apply bg-[#1E1E1E] text-white;
-}
+} */
 
 .font-rethink-sans {
   font-family: "Rethink Sans", sans-serif;

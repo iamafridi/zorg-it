@@ -12,12 +12,12 @@ const Feature = () => {
                     <img
                         src={titleImg}
                         alt="Background Title"
-                        className="max-w-[800px] w-full h-auto object-contain opacity-30"
+                        className="max-w-[800px] w-full h-auto object-contain opacity-50"
                     />
                 </div>
 
                 {/* Text Content */}
-                <div className="mx-auto mb-16 text-center relative pt-8">
+                <div className="mx-auto mb-16 text-center relative pt-8 ">
                     <h2 className="text-4xl md:text-5xl font-extrabold mb-3">
                         Featured Insights
                     </h2>
@@ -26,10 +26,10 @@ const Feature = () => {
                     </p>
                 </div>
                 {/* faq */}
-                <div className="space-y-4 mt-12">
+                <div className="space-y-4 mt-12 text-[24px]">
                     <div className="flex items-center justify-between p-4 rounded-xl bg-black/50 border border-white/10 hover:border-cyan-500/30 transition-all duration-300 group cursor-pointer">
                         <div className="flex items-center gap-3">
-                            <span className="text-cyan-400 font-mono text-sm">01</span>
+                            <span className="text-cyan-400 font-mono ">01</span>
                             <span className="text-white font-medium">How to Protect Your Identity While Traveling</span>
                         </div>
                         <img
@@ -41,7 +41,7 @@ const Feature = () => {
 
                     <div className="flex items-center justify-between p-4 rounded-xl bg-black/50 border border-white/10 hover:border-cyan-500/30 transition-all duration-300 group cursor-pointer">
                         <div className="flex items-center gap-3">
-                            <span className="text-cyan-400 font-mono text-sm">02</span>
+                            <span className="text-cyan-400 font-mono text-[24px]">02</span>
                             <span className="text-white font-medium">How to Protect Your Identity While Traveling</span>
                         </div>
                         <img
@@ -53,7 +53,7 @@ const Feature = () => {
 
                     <div className="flex items-center justify-between p-4 rounded-xl bg-black/50 border border-white/10 hover:border-cyan-500/30 transition-all duration-300 group cursor-pointer">
                         <div className="flex items-center gap-3">
-                            <span className="text-cyan-400 font-mono text-sm">03</span>
+                            <span className="text-cyan-400 font-mono text-[24px]">03</span>
                             <span className="text-white font-medium">How to Protect Your Identity While Traveling</span>
                         </div>
                         <img
@@ -65,7 +65,7 @@ const Feature = () => {
 
                     <div className="flex items-center justify-between p-4 rounded-xl bg-black/50 border border-white/10 hover:border-cyan-500/30 transition-all duration-300 group cursor-pointer">
                         <div className="flex items-center gap-3">
-                            <span className="text-cyan-400 font-mono text-sm">04</span>
+                            <span className="text-cyan-400 font-mono text-[24px]">04</span>
                             <span className="text-white font-medium">How to Protect Your Identity While Traveling</span>
                         </div>
                         <img
@@ -77,7 +77,7 @@ const Feature = () => {
 
                     <div className="flex items-center justify-between p-4 rounded-xl bg-black/50 border border-white/10 hover:border-cyan-500/30 transition-all duration-300 group cursor-pointer">
                         <div className="flex items-center gap-3">
-                            <span className="text-cyan-400 font-mono text-sm">05</span>
+                            <span className="text-cyan-400 font-mono text-[24px]">05</span>
                             <span className="text-white font-medium">How to Protect Your Identity While Traveling</span>
                         </div>
                         <img

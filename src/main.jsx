@@ -6,8 +6,8 @@ import { router } from './router/router.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div >
-      <div className='font-rethink-sans mx-auto'>
+    <div className='bg-[#1E1E1E]' >
+      <div className='font-rethink-sans mx-auto '>
         <RouterProvider router={router} />
       </div>
     </div>

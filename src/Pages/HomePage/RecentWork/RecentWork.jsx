@@ -9,15 +9,15 @@ import image5 from '../../../assets/PageImages/innovation.png'
 
 const RecentWork = () => {
     return (
-        <section className="min-h-screen bg-black text-white overflow-hidden">
+        <section className="min-h-screen bg-black text-white overflow-hidden ">
             <div className="max-w-6xl mx-auto px-6 py-20 relative">
 
                 {/* Centered Background Title */}
-                <div className="absolute top-0 left-0 right-0 flex justify-center items-start pt-12 pointer-events-none">
+                <div className="absolute top-0 left-0 right-0 flex justify-center items-start  pointer-events-none">
                     <img
                         src={titleImg}
                         alt="Background Title"
-                        className="max-w-[800px] w-full h-auto object-contain opacity-30"
+                        className="max-w-[800px] w-full h-auto object-contain opacity-60 backdrop-blur-sm"
                     />
                 </div>
 
@@ -27,7 +27,7 @@ const RecentWork = () => {
                         Our Most Recent Works
                     </h2>
                     <p className="text-white/60 max-w-md mx-auto">
-                        Discover our latest creative and technical projects — from design to development.
+                        Lorem ipsum dolor sit amet consectetur. Eget at at nunc lorem.
                     </p>
                 </div>
 
@@ -40,7 +40,7 @@ const RecentWork = () => {
                             alt="Alcohol Tracker"
                             className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
                         <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end">
                             <h2 className="text-2xl font-semibold mb-1">Alcohol Tracker</h2>
@@ -64,7 +64,7 @@ const RecentWork = () => {
                             alt="Rely Project"
                             className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
                         <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end">
                             <h2 className="text-2xl font-semibold mb-1">Rely</h2>
@@ -91,7 +91,7 @@ const RecentWork = () => {
                             alt="Alcohol Tracker"
                             className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
                         <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
                             <h2 className="text-xl font-semibold mb-1">Alcohol Tracker</h2>
@@ -115,7 +115,7 @@ const RecentWork = () => {
                             alt="Finance Website"
                             className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
                         <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
                             <h2 className="text-xl font-semibold mb-1">Finance Website</h2>
@@ -139,7 +139,7 @@ const RecentWork = () => {
                             alt="Innovative Travel"
                             className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/60 to-transparent"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black via-black/10 to-transparent"></div>
 
                         <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col justify-end">
                             <h2 className="text-xl font-semibold mb-1">Innovative Travel</h2>

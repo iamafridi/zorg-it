@@ -9,9 +9,9 @@ import Icon4 from '../../../assets/Icons/end-to-end.png'
 
 const Service = () => {
     return (
-        <section className="relative min-h-screen text-white overflow-hidden">
+        <section className="relative min-h-screen  text-white overflow-hidden backdrop-blur-sm ">
             {/* Background Image */}
-            <div className="absolute inset-0 blur-[1px]">
+            <div className="absolute inset-0 blur-[1.5px]">
                 <img
                     className='w-full h-full object-cover'
                     src={titleImg}
@@ -20,7 +20,7 @@ const Service = () => {
             </div>
 
             {/* Content Container */}
-            <div className="relative z-10 flex flex-col px-6 py-16 bg-black/40">
+            <div className="relative z-10 flex flex-col px-6 py-16 bg-black/40 ">
                 {/* Text Content */}
                 <div className="max-w-5xl mx-auto mb-12">
                     <p className="text-lg md:text-xl lg:text-4xl font-normal leading-relaxed">
@@ -40,7 +40,7 @@ const Service = () => {
                 </div>
 
                 {/* Service Cards Section */}
-                <div className="max-w-7xl mx-auto w-full">
+                <div className="max-w-7xl mx-auto w-full ">
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px'>
                         {/* First card - AIO */}
                         <div className="relative  h-[314px] backdrop-blur-xl bg-black/50 border border-white/10 rounded-2xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300 group">
@@ -66,7 +66,7 @@ const Service = () => {
                         </div>
 
                         {/* Second card - Project-Based */}
-                        <div className="relative  h-[314px] translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-r-0 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all duration-300 group">
+                        <div className="relative  h-[314px] translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-r-0 border-l-0 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all duration-300 group">
                             <div className="absolute inset-0 opacity-30">
                                 <img className='w-full h-full opacity-40 bg-linear-to-tl from-blue-500 via-blue-300 object-cover' src={texture} alt="" />
                             </div>
@@ -89,7 +89,7 @@ const Service = () => {
                         </div>
 
                         {/* Third card - Scalable Dev */}
-                        <div className="relative  h-[314px] backdrop-blur-md bg-black/50 border border-white/10 border-r-0 rounded-2xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 group">
+                        <div className="relative  h-[314px] backdrop-blur-md bg-black/50 border border-white/10 border-r-0 border-l-0 rounded-2xl overflow-hidden hover:border-pink-500/50 transition-all duration-300 group">
                             <div className="absolute inset-0 opacity-30">
                                 <img className='w-full h-full object-cover opacity-40 bg-linear-to-tl from-blue-500 via-blue-300' src={texture} alt="" />
                             </div>

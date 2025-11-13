@@ -8,7 +8,7 @@ import Feature from './Feature/Feature'
 
 const Home = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full bg-[#1E1E1E]'>
             <Banner />
             <ShowcaseGrid />
             <Service />
