@@ -12,24 +12,21 @@ const Navbar = () => {
     return (
         <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex items-center justify-between bg-black/30 backdrop-blur-sm text-white border border-white/10 rounded-full px-4 md:px-6 py-3 md:py-4 shadow-lg">
-                {/* Left side - Logo and Mobile Menu */}
-                <div className="flex items-center gap-2">
-                    <div className="dropdown lg:hidden">
-                        <div tabIndex={0} role="button" className="btn btn-ghost btn-sm px-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul
-                            tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-black/90 backdrop-blur-md border border-white/10 rounded-box z-1 mt-3 w-52 p-2 shadow-xl">
-                            {navItems}
-                        </ul>
+                <Link to='/'> <Logo /></Link>
+
+                <div className="dropdown dropdown-end lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost btn-sm px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
                     </div>
-                    <Link to='/'> <Logo /></Link>
+                    <ul
+                        tabIndex={0}
+                        className="menu menu-sm dropdown-content bg-black/90 backdrop-blur-md border border-white/10 rounded-box z-1 mt-3 w-52 p-2 shadow-xl">
+                        {navItems}
+                    </ul>
                 </div>
 
-                {/* Right side - Desktop Menu */}
                 <div className="hidden lg:flex items-center gap-6">
                     <ul className="menu menu-horizontal px-1 gap-2">
                         {navItems}

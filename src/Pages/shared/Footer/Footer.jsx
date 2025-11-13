@@ -34,12 +34,12 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-between items-center text-md">
-                    <a href="mailto:hey@pixll.com" className="text-3xl md:text-5xl font-normal underline underline-offset-14 hover:text-cyan-400 transition-colors duration-300">
+                <div className="lg:flex justify-between items-center text-md">
+                    <a href="mailto:hey@pixll.com" className="text-[20px] md:text-5xl font-normal underline underline-offset-14 hover:text-cyan-400 transition-colors duration-300">
                         hey@pixll.com
                     </a>
 
-                    <div className="flex items-center text-[18px] gap-8 text-white/60">
+                    <div className="flex mt-3 items-center text-xs lg:text-[18px] gap-8 text-white/60">
                         <div className='flex gap-8'>
                             <div className='gap-8 mr-10 flex'>
                                 <a href="#" className="hover:text-white transition-colors underline">Privacy</a>

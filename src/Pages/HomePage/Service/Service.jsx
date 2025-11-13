@@ -41,7 +41,7 @@ const Service = () => {
 
                 {/* Service Cards Section */}
                 <div className="max-w-7xl mx-auto w-full ">
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px'>
+                    <div className='grid gap-4 md:gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-px '>
                         {/* First card - AIO */}
                         <div className="relative  h-[314px] backdrop-blur-xl bg-black/50 border border-white/10 rounded-2xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300 group">
                             <div className="absolute inset-0 opacity-30">
@@ -66,7 +66,7 @@ const Service = () => {
                         </div>
 
                         {/* Second card - Project-Based */}
-                        <div className="relative  h-[314px] translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-r-0 border-l-0 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all duration-300 group">
+                        <div className="relative  h-[314px] lg:translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-r-0 border-l-0 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all duration-300 group ">
                             <div className="absolute inset-0 opacity-30">
                                 <img className='w-full h-full opacity-40 bg-linear-to-tl from-blue-500 via-blue-300 object-cover' src={texture} alt="" />
                             </div>
@@ -112,7 +112,7 @@ const Service = () => {
                         </div>
 
                         {/* Fourth card - End-to-End */}
-                        <div className="relative  h-[314px] -translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-l-0 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 group ">
+                        <div className="relative  h-[314px] lg:-translate-y-14 backdrop-blur-md bg-black/50 border border-white/10 border-l-0 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all duration-300 group ">
                             <div className="absolute inset-0 opacity-30">
                                 <img className='w-full h-full object-cover opacity-40 bg-linear-to-tl from-blue-500 via-blue-300' src={texture} alt="" />
                             </div>

@@ -18,7 +18,7 @@ const Banner = () => {
             {/* Content Container */}
             <div className="relative z-10 flex flex-col min-h-screen">
                 {/* Navbar */}
-                <div className="pt-4 md:pt-6">
+                <div className="pt-4 z-99 md:pt-6">
                     <Navbar />
                 </div>
 
@@ -48,7 +48,7 @@ const Banner = () => {
                 </div>
 
                 {/* Company Logos - Bottom */}
-                <div className="pb-8 md:pb-12">
+                <div className="pb-8 mt-5 md:pb-12">
                     <CompanyLogo />
                 </div>
             </div>
