@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  @apply bg-[#1E1E1E] text-white;
+}
+
+.font-rethink-sans {
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
