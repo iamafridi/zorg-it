@@ -3,6 +3,8 @@
 A modern, responsive portfolio website for a digital agency built with React, showcasing services, recent work, and featured insights with stunning animations and glassmorphism design.
 
 # Demo
+<img width="1902" height="967" alt="image" src="https://github.com/user-attachments/assets/1d1949ff-0ee8-4b4c-aa01-03e81cc2c088" />
+
 
 ## 🚀 Tech Stack
 
