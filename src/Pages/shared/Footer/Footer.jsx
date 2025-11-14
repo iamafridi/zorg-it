@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-12 px-6 relative overflow-hidden">
-            <div className="absolute inset-0 z-0">
+        <footer className=" bg-linear-to-l from-[#1e1e1e] via-white/5 to-black text-white py-12 px-6 relative overflow-hidden">
+            <div className="absolute z-0">
                 <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '0%', backgroundColor: '#330000' }} />
                 <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '10%', backgroundColor: '#000000' }} />
                 <div className="absolute top-0 bottom-0 w-8 opacity-30" style={{ left: '20%', backgroundColor: '#330000' }} />
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="flex justify-between items-start mb-6">
                     <div className="flex-1">
                         <p className="text-lg text-white/90 mb-2">Have a project in mind?</p>
-                        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#04b0ee] via-white to-[#02abe9] bg-clip-text text-transparent">
+                        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-r from-[#04b0ee] via-white to-[#02abe9] bg-clip-text text-transparent">
                             Let's Talk
                         </h2>
                     </div>

@@ -26,13 +26,14 @@ const Banner = () => {
                 <div className="grow flex items-center justify-center">
                     <div className="text-center max-w-4xl px-4">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-                            <span className="block drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                            <span className="block bg-linear-to-r from-gray-400 via-white to-gray-400 bg-clip-text text-transparent drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
                                 We Shape Your Ideas Into
                             </span>
-                            <span className="block drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+
+                            <span className="block bg-linear-to-r from-gray-400 via-white to-gray-400 bg-clip-text text-transparent drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
                                 Awesome Digital
                             </span>
-                            <span className="block drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                            <span className="block bg-linear-to-r from-gray-400 via-white to-gray-400 bg-clip-text text-transparent drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
                                 Experience
                             </span>
                         </h1>

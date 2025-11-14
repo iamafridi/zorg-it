@@ -17,7 +17,7 @@ const RecentWork = () => {
                     <img
                         src={titleImg}
                         alt="Background Title"
-                        className="max-w-[800px] w-full h-auto object-contain opacity-60 backdrop-blur-sm"
+                        className="max-w-[800px] w-full h-auto object-contain opacity-80 backdrop-blur-sm"
                     />
                 </div>
 
@@ -27,7 +27,7 @@ const RecentWork = () => {
                         Our Most Recent Works
                     </h2>
                     <p className="text-white/60 max-w-md mx-auto">
-                        Lorem ipsum dolor sit amet consectetur. Eget at at nunc lorem.
+                        Lorem ipsum dolor sit amet <br /> consectetur. Eget at at nunc lorem.
                     </p>
                 </div>
 
